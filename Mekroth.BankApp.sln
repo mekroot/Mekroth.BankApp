@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B2CAD592-2877-498E-8A6D-6FA5112F1D81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1B888BC2-BD32-455E-A586-45A3C7B346DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekroth.BankApp.Application", "src\Mekroth.BankApp.Application\Mekroth.BankApp.Application.csproj", "{C4E6E06F-ABA2-4135-BB9A-D357A0BFC6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekroth.BankApp", "src\Mekroth.BankApp\Mekroth.BankApp.csproj", "{D5F091D6-E159-424F-A486-553D12189A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekroth.BankApp.Core", "src\Mekroth.BankApp.Core\Mekroth.BankApp.Core.csproj", "{B8DB2284-6688-4753-A13B-7D5E02649986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekroth.BankApp.Infrastructure", "src\Mekroth.BankApp.Infrastructure\Mekroth.BankApp.Infrastructure.csproj", "{7E955684-6FCE-408C-A9BF-CD1E7E63FF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekroth.BankApp.Application.UnitTests", "tests\Mekroth.BankApp.Application.UnitTests\Mekroth.BankApp.Application.UnitTests.csproj", "{B04CE383-CBFA-41F6-8713-06D2C13D508D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mekroth.BankApp.Infrastructure.IntegrationTests", "tests\Mekroth.BankApp.Infrastructure.IntegrationTests\Mekroth.BankApp.Infrastructure.IntegrationTests.csproj", "{4F9DC633-9F94-4B80-BCA6-AA6D2AF06F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E6E06F-ABA2-4135-BB9A-D357A0BFC6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E6E06F-ABA2-4135-BB9A-D357A0BFC6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E6E06F-ABA2-4135-BB9A-D357A0BFC6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E6E06F-ABA2-4135-BB9A-D357A0BFC6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F091D6-E159-424F-A486-553D12189A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F091D6-E159-424F-A486-553D12189A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F091D6-E159-424F-A486-553D12189A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F091D6-E159-424F-A486-553D12189A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DB2284-6688-4753-A13B-7D5E02649986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DB2284-6688-4753-A13B-7D5E02649986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DB2284-6688-4753-A13B-7D5E02649986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DB2284-6688-4753-A13B-7D5E02649986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E955684-6FCE-408C-A9BF-CD1E7E63FF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E955684-6FCE-408C-A9BF-CD1E7E63FF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E955684-6FCE-408C-A9BF-CD1E7E63FF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E955684-6FCE-408C-A9BF-CD1E7E63FF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04CE383-CBFA-41F6-8713-06D2C13D508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04CE383-CBFA-41F6-8713-06D2C13D508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04CE383-CBFA-41F6-8713-06D2C13D508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04CE383-CBFA-41F6-8713-06D2C13D508D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9DC633-9F94-4B80-BCA6-AA6D2AF06F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9DC633-9F94-4B80-BCA6-AA6D2AF06F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9DC633-9F94-4B80-BCA6-AA6D2AF06F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9DC633-9F94-4B80-BCA6-AA6D2AF06F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4E6E06F-ABA2-4135-BB9A-D357A0BFC6C1} = {B2CAD592-2877-498E-8A6D-6FA5112F1D81}
+		{D5F091D6-E159-424F-A486-553D12189A08} = {B2CAD592-2877-498E-8A6D-6FA5112F1D81}
+		{B8DB2284-6688-4753-A13B-7D5E02649986} = {B2CAD592-2877-498E-8A6D-6FA5112F1D81}
+		{7E955684-6FCE-408C-A9BF-CD1E7E63FF33} = {B2CAD592-2877-498E-8A6D-6FA5112F1D81}
+		{B04CE383-CBFA-41F6-8713-06D2C13D508D} = {1B888BC2-BD32-455E-A586-45A3C7B346DD}
+		{4F9DC633-9F94-4B80-BCA6-AA6D2AF06F15} = {1B888BC2-BD32-455E-A586-45A3C7B346DD}
+	EndGlobalSection
+EndGlobal
